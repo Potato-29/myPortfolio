@@ -1,0 +1,82 @@
+#nav1 {
+	background-color: #62CE67;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+#img1 {
+	position: absolute;	top: 100px; left: 65px;	 
+}
+/*@media (max-width: 479px){
+	#abt{
+	justify-content: center;
+	align-content: center;
+	font-size: 10px;
+	}
+}
+@media (min-width: 480px){
+	#abt{
+	justify-content: center;
+	align-content: center;
+	font-size: 20px;
+	}
+}
+@media (max-width: 479px){
+	h1{
+	font-size: 3rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute; top: 150px; left: 600px;
+	}
+}
+@media (min-width: 480px){
+	h1{
+	font-size: 3rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute; top: 150px; left: 600px;
+	}
+}
+p{
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute; top: 210px; left: 602px;
+}*/
+p{
+	position: absolute; top: 180px; left: 150px;
+}
+h1{
+	position: absolute; top: 100px; left: 150px;
+}
+#link1{
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute; top: 583px; left: 150px;
+}
+html,head,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+#i1{
+	position: absolute; top: 775px; left: 300px;
+}
+#i2{
+	position: absolute; top: 766px; left: 700px;
+}
+#i3{
+	position: absolute; top: 762px; left: 1102px;
+}
+#p1{
+	position: absolute; top: 915px; left: 319px;
+}
+#p2{
+	position: absolute; top: 915px; left: 682px;
+}
+#p3{
+	position: absolute;top: 915px; left: 1081px;
+}
+.bdr{
+	height: 300px;
+	background-color: #62CE67;
+	position: absolute; top: 700px;
+}
