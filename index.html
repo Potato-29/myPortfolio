@@ -6,6 +6,7 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat|Ubuntu&display=swap" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/2742b2ef15.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/FitText.js/1.2.0/jquery.fittext.min.js">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -18,20 +19,19 @@
 <body>
 
   <section id="title">
-
     <!-- Nav Bar -->
         <nav class="navbar navbar-expand-sm navbar-light" id="nav1">
         <a class="navbar-brand">
-        	<img src="logo1.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> 
+          <img src="logo1.jpg" width="30" height="30" class="d-inline-block align-top" alt=""> 
         Potat's Portfolio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-tem"><a class="nav-link" href="">Home</a></li>
+            <li class="nav-tem"><a class="nav-link" href="">Home &nbsp</a></li>
             <li class="nav-item"><a class="nav-link" href="">Contact</a></li>
-            <li class="nav-item"><a class="nav-link" href="">Company</a></li>
+            <li class="nav-item"><a class="nav-link" href="">Projects</a></li>
             <li class="nav-item"><a class="nav-link" href="">Blog</a></li>
         </ul>
         </div>  
@@ -40,45 +40,47 @@
 
 
     <!-- About Me -->
-
+  <div class="container-fluid cfd">
     <div class="row">
-    	<div class="col-lg-6 col-sm-12">
-      		
-      		<h1>Prayas Sorathiya.</h1>
-      			<p id="abt">
-      				Hi there, My name's Prayas and i am just a normal guy.<br>
-      				I found out my love for coding in 10th grade computer classes.<br>
-      				The first language they taught us was C and from that moment i was hooked.<br>
-      				Right now i am pursuing BCA. My main aim is to be the best!
-      			</p>
-      			<a href="#" id="link1">my projects</a>	
-    	</div>
-    	 
-    	<div class="col-lg-6 col-sm-12">
-      		<img src="lrm1.jpeg" class="img-fluid" width="450" height="450" alt="me" id="img1">
-      	</div>
-	</div>
-
-  </section>
+        <div class="col-lg-6">
+          <h1>Prayas Sorathiya.</h1>
+            <p id="abt">
+              Hi there, My name's Prayas and i am just a normal guy,
+              I found out my love for coding in 10th grade computer classes.
+              The first language they taught us was C and from that moment i was hooked.
+              Right now i am pursuing BCA. My main aim is to be the best!
+            </p>
+            <a href="#" id="link1">my projects</a>  
+        </div>
+       
+        <div class="col-lg-6 text-center">
+          <img src="lrm1.jpeg" class="img-fluid" width="450" height="450" alt="me" id="img1">
+        </div>
+      </div>
+  </div>
+</section>
 
 
   <!-- Features -->
-
-  <section id="skillset">
-  	<div class="container-fluid bdr">
-  		
-  	</div>
-  	<div class="row">
-  		<div>
-  			<img src="des.png" width="140" id="i1">
-  			<p id="p1">UX/UI Design.</p>
- 			<img src="py.png" width="140" id="i2">
-  			<p id="p2">Professional Python Dev.</p>
-  			<img src="help.png" width="140" id="i3">
-  			<p id="p3">OpenSource Contributor.</p>
-  		</div>
-  	</div>
+<div class="container-fluid bdr">
+  <section id="features">  
+      <div class="row">
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-pencil-ruler fa-4x" id="i1"></i>
+          <p id="p1">UX/UI Design.</p>
+        </div>
+        <div class="feature-box col-lg-4"> 
+          <i class="fab fa-python fa-4x " id="i2"></i>
+          <p id="p2">Pro Python Dev.</p>
+        </div>
+        <div class="feature-box col-lg-4">
+          <i class="fas fa-donate fa-4x" id="i3"></i>
+          <p id="p3">OpenSource Contributor.</p>
+        </div>
+      </div>
+      <button type="button" class="btn btn-outline-light" id="button">Let's Work Together!</button>
   </section>
+</div>
 
   <!-- Testimonials -->
 
