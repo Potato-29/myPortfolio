@@ -1,0 +1,135 @@
+#nav1 {
+	padding: 2%;
+	background-color: #62CE67;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+.cfd{
+	padding: 7% 20%;
+}
+body{
+	font-family: "Montserrat";
+}
+.navbar-brand{
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;	
+}
+.nav-item{
+	padding: 0px 10px;
+}
+.nav-link{
+	font-family: "Ubuntu";
+	font-weight: bolder;
+}
+#h2{
+	font-family: "Ubuntu";
+	font-size: 3rem;
+	line-height: 1.5;
+}
+h1{
+	padding: 0 0 1rem;
+	font-size: 3rem;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 1.5;
+}
+p{
+	text-align: justify;
+	padding: 0 0 2rem;
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+}
+#link1{
+	font-family: 'Ubuntu', sans-serif;
+	font-family: 'Montserrat', sans-serif;
+	position: absolute; top: 985px; left: 680px;
+}
+html,head,body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.bdr{
+	background-color: #62CE67;
+	position: absolute; top: 1060px;
+}
+#button{
+	position: absolute; top:280px; left: 694px;
+}
+#features{
+	padding-top: 8%;
+	padding-left: 8%; 
+}
+#p1{
+	padding: 4% 31%;
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+#p2{
+	padding: 4% 27%;
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+#p3{
+	padding: 4% 21%;
+	font-family: "Ubuntu";
+	font-weight: bold;
+}
+#i1{
+	color: 	#185c37;
+	padding: 6% 34%;
+}
+#i2{
+	color: 	#185c37;
+	padding: 6% 33%;
+}
+#i3{
+	color: 	#185c37;
+	padding: 7% 33%;
+}
+#feature-box{
+	text-align: center;
+}
+#testimonials{
+	position: absolute; top: 1380px;
+	text-align: center;
+	
+}
+.carousel-item{
+	padding: 7% 15%;
+}
+.client1{
+	width: 10%;
+	border-radius: 100%;
+	margin: 1%;
+}
+/*.card{
+	position: absolute; top: 1300px; left: 100px;
+}*/
+#con1{
+	background-color: #62CE67;
+	position: absolute; top: 2000px; 
+	padding: 5% 15%;
+}
+#pro1{
+	font-size: 3.5rem;
+	font-family: "Ubuntu";
+	font-weight: bolder;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #62CE67;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #62CE67;
+}
