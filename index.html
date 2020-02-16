@@ -85,24 +85,29 @@
   <!-- Testimonials -->
 <section id="testimonials">
 
-    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    
+  </ol>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <h2 class="testimonial-text" id="h2">"It was a pleasure working with prayas, I got my site and my app in no time and even better than i imagined."</h2>
-        <img src="dog-img.jpg" class="client1">
-        <em>cute doggo, My client.</em>
+      <h2 class="testimonial-text" id="h2">"You want a website? you got it. You want an app? You got it. Prayas can do it all!"</h2>
+      <em>Some Lady, My client</em>
+        <img src="lady-img.jpg" class="client1">
     </div>
     <div class="carousel-item">
-      <h2 class="testimonial-text" id="h2">"You want a website? you got it. You want an app? You got it. Prayas can do it all!"</h2>
-        <img src="lady-img.jpg" class="client1">
-        <em>Lady, My client.</em>
+      <h2 class="testimonial-text" id="h2">"It was a pleasure working with prayas, I got my site in no time and even better than i imagined."</h2>
+      <em>Cute doggo, My client.</em>
+        <img src="dog-img.jpg" class="client1">
     </div>
   </div>
-  <a class="carousel-control-prev" id="arr1" href="#carouselExampleControls" role="button" data-slide="prev">
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-  <a class="carousel-control-next" id="arr2" href="#carouselExampleControls" role="button" data-slide="next">
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
@@ -125,7 +130,7 @@
           <img class="card-img-top" src="pi.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Project #1</h5>
-              <p class="card-text">This is my project 1. A NAS server using raspberry pi.</p>
+              <p class="card-text"><b>This is my project 1.</b><br> A NAS server using raspberry pi.</p>
               <a href="#" class="btn btn-primary">Go to project.</a>
             </div>
           </div>
@@ -135,7 +140,7 @@
           <img class="card-img-top" src="chatbot.png" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Project #2</h5>
-              <p class="card-text">My 2nd Project. A chatbot that learns the more you interact with it.</p>
+              <p class="card-text"><b>My 2nd Project.</b><br> A chatbot that learns new things the more you interact with it.</p>
               <a href="#" class="btn btn-primary">Go to project.</a>
             </div>
           </div>    
@@ -145,7 +150,7 @@
           <img class="card-img-top" src="app.jpg" alt="Card image cap">
             <div class="card-body">
               <h5 class="card-title">Project #3</h5>
-              <p class="card-text">The 3rd project. A app that randomly gives you a name of a game if you're bored and can't decide what to play.</p>
+              <p class="card-text"><b>The 3rd project.</b><br> A app that randomly gives you a name of a game if you can't decide what to play.</p>
               <a href="#" class="btn btn-primary">Go to project.</a>
             </div>
           </div>
