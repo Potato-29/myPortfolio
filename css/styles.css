@@ -133,3 +133,11 @@ html,head,body{
   font-size: 55px;
   color: #62CE67;
 }
+.carousel .carousel-indicators li {
+  background-color: #fff;
+  background-color: rgba(70, 70, 70, 0.25);
+}
+
+.carousel .carousel-indicators .active {
+  background-color: #62CE67;
+}
