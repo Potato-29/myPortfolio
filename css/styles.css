@@ -93,8 +93,10 @@ html,head,body{
 #testimonials{
 	position: absolute; top: 1380px;
 	text-align: center;
-	padding-top: 8%;
-	padding-left: 3%;
+	
+}
+.carousel-item{
+	padding: 7% 15%;
 }
 .client1{
 	width: 10%;
@@ -113,4 +115,21 @@ html,head,body{
 	font-size: 3.5rem;
 	font-family: "Ubuntu";
 	font-weight: bolder;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-size: 100%, 100%;
+}
+
+.carousel-control-next-icon:after
+{
+  content: '>';
+  font-size: 55px;
+  color: #62CE67;
+}
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: #62CE67;
 }
