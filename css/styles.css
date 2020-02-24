@@ -45,7 +45,7 @@ p{
 #link1{
 	font-family: 'Ubuntu', sans-serif;
 	font-family: 'Montserrat', sans-serif;
-	position: absolute; top: 985px; left: 680px;
+	position: absolute; top: 480px;
 }
 html,head,body{
     width: 100%;
@@ -80,6 +80,16 @@ html,head,body{
 	padding: 10px 21%;
 	font-family: "Ubuntu";
 	font-weight: bold;
+}
+#p4{
+	padding: 6% 40%;
+}
+#p5{
+	padding: 6% 45%;
+	overflow:hidden; white-space: nowrap;
+}
+#p6{
+	padding: 6% 47%;
 }
 #i1, #i2, #i3{
 	color: 	#185c37;
@@ -156,4 +166,27 @@ html,head,body{
 
 .carousel .carousel-indicators .active {
   background-color: #62CE67;
+}
+footer{
+	position: absolute; top: 2900px;
+	display: flex;
+	justify-content: center;
+}
+#insta, #twitter, #github{
+	height: 60px;
+	width: 60px;
+	padding: 10% 50%;
+	color: #62CE67;
+}
+@media screen and (min-width: 601px){
+	#thanks{
+		font-size: 100px;
+	}
+}
+@media screen and (max-width: 600px) {
+	#thanks{
+		padding-top: 550px;
+		padding-left: 40px;
+		font-size: 25px;
+	}
 }
