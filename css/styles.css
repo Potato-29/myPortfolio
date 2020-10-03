@@ -138,17 +138,20 @@ html,head,body{
 	padding: 10px 21%;
 }
 #p4{
+	color: aliceblue;
 	padding: 6% 40%;
 }
 #p5{
+	color: aliceblue;
 	padding: 6% 45%;
 	overflow:hidden; white-space: nowrap;
 }
 #p6{
+	color: aliceblue;
 	padding: 6% 47%;
 }
 #i1, #i2, #i3{
-	color: 	#185c37;
+	color: aliceblue;
 }
 #i1{
 	padding: 6% 34%;
@@ -193,6 +196,7 @@ html,head,body{
 	font-weight: bolder;
 }
 footer{
+	background-color: #62CE67;
 	position: absolute; top: 2900px;
 	display: flex;
 	justify-content: center;
@@ -201,7 +205,7 @@ footer{
 	height: 60px;
 	width: 60px;
 	padding: 10% 50%;
-	color: #62CE67;
+	color: aliceblue;
 }
 @media screen and (min-width: 601px){
 	#thanks{
@@ -216,15 +220,19 @@ footer{
 	}
 }
 .corner1{
-	
+	background: url("/chatboot.png");
+	background-size: 320px 450px;
 	top: 150%; left: 25%;
 	transform: translate(-50%, -50%);
 }
 .corner2{
+	background: url("/gamer.png");
 	top: 150%; left: 50%;
 	transform: translate(-50%, -50%);
 }
 .corner3{
+	background: url("/onlinestore.jpg");
+	background-size: 320px 450px;
 	top: 150%; left: 75%;
 	transform: translate(-50%, -50%);
 }
@@ -256,4 +264,8 @@ footer{
 }
 #proj, #proj2, #proj3{
 	font-size: 25px;
+	color: aliceblue;
+}
+#thanks{
+	font-size: 95.8px;
 }
